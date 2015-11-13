@@ -1,0 +1,29 @@
+
+Immediate TODO
+---------------
+- JSON broken in python3
+- unexpected success seems broken in python3
+
+
+FUTURE TODO
+------------
+- `nose` compatibility (plus example)
+- `nose2` compatibility (plus example)
+- `pytest` compatibility (plus example)
+- remove symlinks in example projects.
+- Call out slow tests like Mocha
+- switch `colorize` to use `termcolor` or some other package
+
+### More formats
+- https://github.com/tj/mocha-matrix
+- https://github.com/quangv/mocha-cakes
+- HTML
+
+
+
+Packaging
+----------
+
+- https://python-packaging-user-guide.readthedocs.org/en/latest/distributing/
+- https://python-packaging.readthedocs.org/en/latest/
+- http://docs.python-guide.org/en/latest/writing/structure/
