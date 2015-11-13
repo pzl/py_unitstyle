@@ -1,10 +1,4 @@
-
-Immediate TODO
----------------
-- unexpected success seems broken in python3
-
-
-FUTURE TODO
+TODO
 ------------
 - `nose` compatibility (plus example)
 - `nose2` compatibility (plus example)

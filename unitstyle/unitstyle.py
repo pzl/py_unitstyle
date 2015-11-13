@@ -126,7 +126,7 @@ class Result(unittest.TestResult):
 
     def addUnexpectedSuccess(self,test):
         super(Result,self).addUnexpectedSuccess(test)
-        self.addFailure(test,(type(ExpectedFailure),"Test expected Failure, but passed",None))
+        self.addFailure(test,(ExpectedFailure,ExpectedFailure("Test expected Failure, but passed"),None))
 
     def colorize(self,text,color):
         """ supports color names: black,red,green,yellow,blue,magenta,cyan,white
