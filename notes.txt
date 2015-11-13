@@ -10,6 +10,7 @@ FUTURE TODO
 - `nose` compatibility (plus example)
 - `nose2` compatibility (plus example)
 - `pytest` compatibility (plus example)
+- django compatibility (plus example)
 - remove symlinks in example projects.
 - Call out slow tests like Mocha
 - switch `colorize` to use `termcolor` or some other package
