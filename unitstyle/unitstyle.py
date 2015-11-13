@@ -417,10 +417,10 @@ class JSON(Result):
                 'end': time.strftime("%a, %d %b %Y %H:%M:%S +0000",time.gmtime(stoptime)),
                 'duration': stoptime-starttime
             },
-            'passes': map(lambda x: self.testToJSON(x,string=False), self.successes),
-            'failures': map(lambda x: self.testToJSON(x[0],error=x[1],string=False),self.failures),
-            'skipped': map(lambda x: self.testToJSON(x[0],reason=x[1],string=False), self.skipped),
-            'errors': map(lambda x: self.testToJSON(x[0],error=x[1],string=False), self.errors),
+            'passes': list(map(lambda x: self.testToJSON(x,string=False), self.successes)),
+            'failures': list(map(lambda x: self.testToJSON(x[0],error=x[1],string=False),self.failures)),
+            'skipped': list(map(lambda x: self.testToJSON(x[0],reason=x[1],string=False), self.skipped)),
+            'errors': list(map(lambda x: self.testToJSON(x[0],error=x[1],string=False), self.errors)),
         }
         self.write(json.dumps(o)+"\n")
 

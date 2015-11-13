@@ -1,7 +1,6 @@
 
 Immediate TODO
 ---------------
-- JSON broken in python3
 - unexpected success seems broken in python3
 
 
