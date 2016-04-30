@@ -34,14 +34,14 @@ Supported arguments to `unitstyle`'s TestRunner are:
 
 Output Formats
 --------------
-- **[list](https://mochajs.org/#list)**
-- **[dots](https://mochajs.org/#dot-matrix)**
-- **[jsstream](https://mochajs.org/#json-stream)** - a JSON stream
-- **[JSON](https://mochajs.org/#json)**
-- **[progress](https://mochajs.org/#progress)** bar
-- **[min](https://mochajs.org/#min)**
-- **[tap](https://mochajs.org/#tap)** - the [Test Anything Protocol](http://en.wikipedia.org/wiki/Test_Anything_Protocol)
-- **[spec](https://mochajs.org/#spec)**
+- [list](https://mochajs.org/#list)
+- [dots](https://mochajs.org/#dot-matrix)
+- [jsstream](https://mochajs.org/#json-stream) - a JSON stream
+- [JSON](https://mochajs.org/#json)
+- [progress](https://mochajs.org/#progress) (bar)
+- [min](https://mochajs.org/#min)
+- [tap](https://mochajs.org/#tap) - the [Test Anything Protocol](http://en.wikipedia.org/wiki/Test_Anything_Protocol)
+- [spec](https://mochajs.org/#spec)
 
 Feel free to open an issue to request more, or pull requests!
 
