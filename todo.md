@@ -1,5 +1,6 @@
 TODO
 ------------
+
 - `nose` compatibility (plus example)
 - `nose2` compatibility (plus example)
 - `pytest` compatibility (plus example)
@@ -12,12 +13,3 @@ TODO
 - https://github.com/tj/mocha-matrix
 - https://github.com/quangv/mocha-cakes
 - HTML
-
-
-
-Packaging
-----------
-
-- https://python-packaging-user-guide.readthedocs.org/en/latest/distributing/
-- https://python-packaging.readthedocs.org/en/latest/
-- http://docs.python-guide.org/en/latest/writing/structure/
