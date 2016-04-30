@@ -5,12 +5,15 @@ from os import path
 
 
 here = path.abspath(path.dirname(__file__))
-
+# use pandoc to convert .md to .rst
+with open(path.join(here,'README.rst')) as f:
+	long_description=f.read()
 
 setup(
       name='unitstyle',
       version='1.0.0',
       description='Adds various style choices to unittest output',
+      long_description=long_description,
       url='https://github.com/pzl/py_unitstyle',
       author='Dan Panzarella',
       author_email='dan@panzarel.la',
