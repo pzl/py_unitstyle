@@ -11,7 +11,7 @@ with open(path.join(here,'README.rst')) as f:
 
 setup(
       name='unitstyle',
-      version='1.0.0',
+      version='1.0.1',
       description='Adds various style choices to unittest output',
       long_description=long_description,
       url='https://github.com/pzl/py_unitstyle',

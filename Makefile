@@ -1,7 +1,7 @@
 # This is purely for author use because these steps are annoying
 
 
-VERSION=1.0.0
+VERSION=1.0.1
 
 
 SDIST_TARGET=dist/unitstyle-$(VERSION).tar.gz
